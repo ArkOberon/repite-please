@@ -1,0 +1,11 @@
+.form-input{
+  border: solid;
+  border-radius: 5%;
+  width: 123px;
+  display: block;
+  margin-top: 23px;
+}
+
+label {
+  margin-top: 23px;
+}
