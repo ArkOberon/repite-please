@@ -1,7 +1,7 @@
 import React from 'react'
 import Patient from './Patient'
 
-const PatientList = ({patients}) => {
+const PatientList = ({patients, setSinglePatient}) => {
   return (
     <>
       {
@@ -9,6 +9,7 @@ const PatientList = ({patients}) => {
           <Patient 
             key={patient.id}
             patient={patient}
+            setSinglePatient={setSinglePatient}
           />
         ))
       }

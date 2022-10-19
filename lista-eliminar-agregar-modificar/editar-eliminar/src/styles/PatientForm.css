@@ -1,0 +1,11 @@
+.form-style{
+  display: block;
+  margin-top: 23px;
+}
+
+.button-form{
+  border: solid;
+  border-radius: 33px;
+  padding: 12px;
+  margin-top: 12px;
+}

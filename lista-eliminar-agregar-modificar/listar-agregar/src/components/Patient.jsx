@@ -6,7 +6,7 @@ const Patient = ({patient}) => {
 
   return (
     <>
-      <p>Nombre: <span>J{nombre}</span></p>
+      <p>Nombre: <span>{nombre}</span></p>
       <p>Apellidos: <span>{apellidos}</span></p>
     </>
   )
