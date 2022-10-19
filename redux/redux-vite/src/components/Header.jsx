@@ -2,10 +2,17 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return ( 
-    <nav>         
-      <Link className='menu' to='/'>Home</Link>
-      <Link className='menu' to='/producto'>Producto</Link>
-      <Link className='menu' to='/nuevo-producto'>Nuevo Producto</Link>    
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+      <div className="container">
+        <h1>
+          <Link to='/' className='text-light'>
+            CRUD - React, React, Redux, REST API & Axios
+          </Link>
+        </h1>
+      </div>
+      <Link to="/productos/nuevo" className="btn btn-danger nuevo-post d-block d-md-inline-block">
+        Agregar Productor &#43;
+      </Link>
     </nav>
   );
 }
