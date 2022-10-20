@@ -1,0 +1,13 @@
+body{
+  background-color: bisque;
+}
+
+.form{
+  display: block;
+  padding: 13px 45px;
+  margin-top: 15px;
+}
+
+.form-list{
+  margin-top: 24px;
+}
